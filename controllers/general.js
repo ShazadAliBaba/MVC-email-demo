@@ -22,9 +22,10 @@ router.post("/contact-us", (req, res) => {
 
   // long way
   //const firstName = req.body.firstName;
+  //const firstName = req.body.firstName;
   //const (...)
 
-  // short way
+  // short way (destructuring)
   // Contains all of the different properties that are submitted
   const { firstName, lastName, email, message } = req.body;
 
