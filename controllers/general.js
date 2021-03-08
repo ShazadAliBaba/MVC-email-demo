@@ -51,7 +51,7 @@ router.post("/contact-us", (req, res) => {
     /* An object that contains to/from email address, subject, and a body of the message 
     that will get processed to submitter in HTML format */
     const msg = {
-      to: "shazadio@hotmail.com",
+      to: "sali273@myseneca.ca",
       from: "sali273@myseneca.ca",
       subject: "Contact Us Form Submission",
       html: `Visitor's Full Name: ${firstName} ${lastName}<br />
